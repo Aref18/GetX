@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/view/mainscreen.dart';
 import 'package:get/get_navigation/get_navigation.dart';
 
 void main() {
@@ -12,7 +13,7 @@ class getX extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(body: Center(child: Text('hello'))),
+      home: Scaffold(body: Center(child: Mainscreen())),
     );
   }
 }
